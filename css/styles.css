@@ -9,6 +9,7 @@
 
         
 
+/*NAV BAR*/
 
 .menu__bar{display: none;}
 
@@ -111,6 +112,9 @@ nav li a:hover{background-color: #434343;}
 #aside2{background: rgb(2,0,36);
         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,120,120,1) 24%, rgba(252,254,255,1) 100%);
                 grid-area: aside2;}
+
+
+/*FOOTER*/                
 #foot{background-color: #323233;
         grid-area: footer;
         color: rgb(173,173,173);
@@ -122,6 +126,7 @@ footer ul li a{text-decoration: none;
 footer ul li{display: inline-block;
              margin: 2em 5em;}
 
+footer ul li:hover{transform: scale(1.25);}
 
 
 /*Contacto*/                   
