@@ -73,7 +73,21 @@ nav li a:hover{background-color: #434343;}
                     text-align: center;   
                     margin: 20px ;
                     font-family: 'Cormorant SC', serif;
-                text-decoration: underline;}
+                text-decoration: underline;
+                animation-name: animacion__titulo;
+                animation-timing-function: ease-in-out ;
+                animation-delay: 0s;
+                animation-iteration-count: one;
+                animation-duration: 1s;}
+
+                @keyframes animacion__titulo {
+                        0%{ font-size: 0px;}
+                       
+                       
+                       
+                        100%{ font-size: 45px;}
+        
+                }                
 
  .texto{font-size: 20px;
                         margin: 10px; 
@@ -154,6 +168,11 @@ footer ul li{display: inline-block;
 
 
 /*Noticias*/
+
+
+
+
+
 #Noticias{display: grid;
         height: 100%;
         grid-template-columns: 10vw 80vw 10vw;
